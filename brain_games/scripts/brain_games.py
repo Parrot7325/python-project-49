@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def brain_games():
     print('Welcome to the Brain Games!')
 def main():
@@ -5,3 +6,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+welcome_user()
