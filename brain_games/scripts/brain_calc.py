@@ -1,7 +1,6 @@
-from brain_games.scripts.game_logic import right_or_wrong
+#from brain_games.scripts.game_logic import right_or_wrong
 from random import randint
-import prompt
- 
+from brain_games.scripts.brain_games import main 
 def gen_right():
     x = randint(0, 100)
     y = randint(0, 100)
@@ -17,5 +16,11 @@ def gen_right():
         expression = f'{x} * {y}'
     return(expression, result)
 
+
+def main():
+    right_or_wrong('What is the result of expression? ', gen_right)
+
+
 if __name__ == '__main__':
+    import prompt
     main()
