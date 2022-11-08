@@ -8,7 +8,7 @@ def brain_games():
 
 def main():
     brain_games()
-
+    right_or_wrong('What is the result of expression? ', gen_right)
 
 if __name__ == '__main__':
     main()
