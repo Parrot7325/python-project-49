@@ -18,3 +18,7 @@ installation:
 	poetry install
 	poetry build
 	python3 -m pip install --user  --force-reinstall dist/*.whl
+push:
+	cat ../githubtoken.txt
+	git status
+	git push

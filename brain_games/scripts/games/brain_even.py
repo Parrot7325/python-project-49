@@ -23,5 +23,5 @@ Question: {x}''')
 "{answer}" is wrong answer ;(. Correct answer was '{right_answer}'.
 Lets's try again, {name}''')
         won_games = 0
-    print(f'Congratulations, {name}!')
+print(f'Congratulations, {name}!')
 sys.exit()
