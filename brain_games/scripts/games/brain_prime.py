@@ -1,4 +1,3 @@
-from brain_games.cli import welcome_user
 from brain_games.scripts.game_logic import right_or_wrong
 from random import randint
 
@@ -13,11 +12,12 @@ def gen_quest():
         right_answer = 'no'
     else:
         right_answer = 'yes'
-    return(x, right_answer)
+    return (x, right_answer)
 
 
 def main():
-    right_or_wrong('Answer "yes" if given number is prime. Otherwise answer "no".', gen_quest)
+    QUEST = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    right_or_wrong(quest, gen_quest)
 
 
 if __name__ == '__main__':

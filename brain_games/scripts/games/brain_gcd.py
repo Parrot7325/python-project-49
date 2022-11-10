@@ -1,4 +1,3 @@
-from brain_games.cli import welcome_user
 from brain_games.scripts.game_logic import right_or_wrong
 from random import randint
 
@@ -9,14 +8,15 @@ def gen_quest():
     quest = str(x) + ' ' + str(y)
 
     minimum = min(x, y)
-    for d in range (1, minimum + 1):
-        if x % d == 0 and y % d == 0:
-            gcd = d
-    return(quest, str(gcd))
+    for delimiter in range(1, minimum + 1):
+        if x % delimiter == 0 and y % delimiter == 0:
+            gcd = delimiter
+    return (quest, str(gcd))
 
 
 def main():
-    right_or_wrong('Find the greatest common divisor of given numbers.', gen_quest)
+    QUEST = 'Find the greatest common divisor of given numbers.'
+    right_or_wrong(quest, gen_quest)
 
 
 if __name__ == '__main__':

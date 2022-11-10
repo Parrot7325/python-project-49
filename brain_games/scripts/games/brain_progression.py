@@ -1,4 +1,3 @@
-from brain_games.cli import welcome_user
 from brain_games.scripts.game_logic import right_or_wrong
 from random import randint
 
@@ -20,7 +19,7 @@ def gen_quest():
     for x in progression:
         quest += str(x)
         quest += ' '
-    return(quest, str(right_answer))
+    return (quest, str(right_answer))
 
 
 def main():

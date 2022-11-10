@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 from brain_games.cli import welcome_user
 from brain_games.scripts.game_logic import right_or_wrong
-from brain_games.scripts.brain_calc import gen_right
 def brain_games():
     print('Welcome to the Brain Games!')
 

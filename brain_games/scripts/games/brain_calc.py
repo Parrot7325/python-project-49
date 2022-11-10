@@ -1,5 +1,7 @@
 from brain_games.scripts.game_logic import right_or_wrong
 from random import randint
+
+
 def gen_right():
     x = randint(0, 100)
     y = randint(0, 100)
@@ -13,7 +15,7 @@ def gen_right():
     else:
         result = x * y
         expression = f'{x} * {y}'
-    return(expression, result)
+    return (expression, result)
 
 
 def main():
