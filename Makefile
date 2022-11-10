@@ -14,3 +14,7 @@ retry:
 	poetry publish --dry-run
 token:
 	cat ../githubtoken.txt
+installation:
+	poetry install
+	poetry build
+	python3 -m pip install --user  --force-reinstall dist/*.whl

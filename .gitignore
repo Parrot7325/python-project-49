@@ -1,7 +1,6 @@
 /.venv
 /brain_games/scripts/__pycache__/brain_calc.cpython-39.pyc
 /brain_games/scripts/__pycache__/brain_even.cpython-39.pyc
-/dist
 /brain_games/__pycache__/cli.cpython-39.pyc
 /brain_games/scripts/__pycache__/brain_gcd.cpython-39.pyc
 /brain_games/scripts/__pycache__/brain_prime.cpython-39.pyc
