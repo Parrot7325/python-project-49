@@ -16,7 +16,7 @@ def gen_quest():
 
 def main():
     QUEST = 'Find the greatest common divisor of given numbers.'
-    right_or_wrong(quest, gen_quest)
+    right_or_wrong(QUEST, gen_quest)
 
 
 if __name__ == '__main__':

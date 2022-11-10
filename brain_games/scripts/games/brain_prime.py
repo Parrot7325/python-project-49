@@ -17,7 +17,7 @@ def gen_quest():
 
 def main():
     QUEST = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    right_or_wrong(quest, gen_quest)
+    right_or_wrong(QUEST, gen_quest)
 
 
 if __name__ == '__main__':
