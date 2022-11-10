@@ -22,6 +22,5 @@ Question: {x}''')
         print(f'''
 "{answer}" is wrong answer ;(. Correct answer was '{right_answer}'.
 Lets's try again, {name}''')
-        won_games = 0
-print(f'Congratulations, {name}!')
-sys.exit()
+        sys.exit()
+    print(f'Congratulations, {name}!')
