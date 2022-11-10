@@ -15,7 +15,7 @@ def gen_right():
     else:
         result = x * y
         expression = f'{x} * {y}'
-    return (expression, result)
+    return (expression, str(result))
 
 
 def main():
