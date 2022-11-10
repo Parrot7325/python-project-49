@@ -14,7 +14,8 @@ def right_or_wrong(quest_global, gen_right):
             won_games += 1
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was "
-                  f"'{right_answer}'.\nLet's try again, {name}!")
+            print(f'''
+\'{answer}' is wrong answer ;(. Correct answer was '{right_answer}'.
+Let's try again, {name}!''')
             sys.exit()
     print(f'Congratulations, {name}!')
