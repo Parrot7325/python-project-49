@@ -19,6 +19,7 @@ def gen_right():
 
 
 def main():
+    print('What is the result of expression? ')
     right_or_wrong('What is the result of expression? ', gen_right)
 
 
