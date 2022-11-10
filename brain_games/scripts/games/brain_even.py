@@ -8,11 +8,13 @@ def gen_quest():
         right_answer = 'yes'
     else:
         right_answer = 'no'
-    return(x, right_answer)
+    return (x, right_answer)
+
 
 def main():
     QUEST = 'Answer "yes" if the number is even, otherwise answer "no".'
     right_or_wrong(QUEST, gen_quest)
+
 
 if __name__ == '__main__':
     main()
