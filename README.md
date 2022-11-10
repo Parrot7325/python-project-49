@@ -3,3 +3,4 @@
 Аскинема: https://asciinema.org/a/ZUj9asjkDqex5EBUingzSuZHh
 Аскинема к 7-ому шагу: https://asciinema.org/a/J7VlV3VgKVZKWDG8HsxpRpAct
 Аскинема к 8-ому шагу: https://asciinema.org/a/EQUsyPa3OxbCnhtaEV34X1wtE
+Аскинема к 9-ому шагу: https://asciinema.org/a/YQYZ7P7Er7mQDZbwm9yLZz6DW
