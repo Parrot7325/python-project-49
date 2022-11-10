@@ -12,8 +12,8 @@ def gen_quest():
     for delimiter in range(1, minimum + 1):
         if x % delimiter == 0 and y % delimiter == 0:
             gcd = delimiter
-        if x == 0 or y ==0:
-            gcd = 0
+        if x == 0 or y == 0:
+            gcd = max(x, y)
     return (quest, str(gcd))
 
 
