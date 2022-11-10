@@ -17,6 +17,7 @@ def gen_quest():
 
 
 def main():
+    print(f'Congratulations, {name}!')
     QUEST = 'Find the greatest common divisor of given numbers.'
     right_or_wrong(QUEST, gen_quest)
 
