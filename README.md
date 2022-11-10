@@ -1,3 +1,5 @@
+### Code Climate Maintainability Badge
+[![Maintainability](https://api.codeclimate.com/v1/badges/fdd618eadf00e7120361/maintainability)](https://codeclimate.com/github/Parrot7325/python-project-49/maintainability)
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Parrot7325/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Parrot7325/python-project-49/actions)
 
