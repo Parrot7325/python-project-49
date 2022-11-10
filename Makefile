@@ -11,7 +11,7 @@ build:
 
 
 publish:
-	poetry publish --dry-run
+	poetry publish
 
 
 package-install:
