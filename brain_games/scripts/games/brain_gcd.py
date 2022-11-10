@@ -11,6 +11,8 @@ def gen_quest():
     for delimiter in range(1, minimum + 1):
         if x % delimiter == 0 and y % delimiter == 0:
             gcd = delimiter
+        else:
+            gcd = 1
     return (quest, str(gcd))
 
 
