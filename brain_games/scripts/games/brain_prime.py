@@ -12,6 +12,8 @@ def gen_quest():
         right_answer = 'no'
     else:
         right_answer = 'yes'
+    if x == 1:
+        right_answer = 'no'
     return (x, right_answer)
 
 
