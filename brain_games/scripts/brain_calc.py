@@ -1,6 +1,5 @@
-#from brain_games.scripts.game_logic import right_or_wrong
+from brain_games.scripts.game_logic import right_or_wrong
 from random import randint
-from brain_games.scripts.brain_games import main 
 def gen_right():
     x = randint(0, 100)
     y = randint(0, 100)
@@ -22,5 +21,4 @@ def main():
 
 
 if __name__ == '__main__':
-    import prompt
     main()

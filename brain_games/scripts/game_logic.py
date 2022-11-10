@@ -1,8 +1,8 @@
+import sys
+import prompt
+
+
 def right_or_wrong(quest_global, gen_right):
-    import sys
-    import prompt
-
-
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
     print(f'Hello, {name}!\n{quest_global}')
     won_games = 0
