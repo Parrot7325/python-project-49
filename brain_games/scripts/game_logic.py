@@ -15,7 +15,7 @@ def right_or_wrong(quest_global, gen_right):
             print('Correct!')
         else:
             print(f'''
-\'{answer}' is wrong answer ;(. Correct answer was '{right_answer}'.
+'{answer}' is wrong answer ;(. Correct answer was '{right_answer}'.
 Let's try again, {name}!''')
             sys.exit()
     print(f'Congratulations, {name}!')
