@@ -16,11 +16,3 @@ def gen_right():
         result = x * y
         expression = f'{x} * {y}'
     return (expression, str(result))
-
-
-def main():
-    right_or_wrong('What is the result of the expression?', gen_right)
-
-
-if __name__ == '__main__':
-    main()
