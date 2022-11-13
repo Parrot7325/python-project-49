@@ -4,9 +4,10 @@ from random import randint
 
 def gen_quest():
     x = randint(0, 1000)
+
     def is_even(x):
         return (x % 2 == 0)
-    
+
     if is_even(x):
         right_answer = 'yes'
     else:
