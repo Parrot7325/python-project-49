@@ -3,7 +3,7 @@ from random import randint
 
 
 def gen_quest():
-    x = randint(0, 100)
+    x = randint(1, 100)
     not_prime = 0
     for d in range(2, x):
         if x % d == 0:
