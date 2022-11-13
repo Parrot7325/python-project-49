@@ -1,4 +1,4 @@
-from brain_games.scripts.game_logic import right_or_wrong
+from brain_games.game_logic import right_or_wrong
 from random import randint
 
 
