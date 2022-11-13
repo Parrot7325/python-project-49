@@ -19,7 +19,6 @@ def gen_right():
 
 
 def main():
-    #print('What is the result of the expression? ') Убрать
     right_or_wrong('What is the result of the expression?', gen_right)
 
 
