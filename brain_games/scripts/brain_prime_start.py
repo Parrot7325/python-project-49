@@ -1,5 +1,5 @@
 from brain_games.game_logic import right_or_wrong
-from brain.games.games.brain_prime import prime_game
+from brain_games.games.brain_prime import prime_game
 
 
 def main():
