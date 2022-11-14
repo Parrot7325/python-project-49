@@ -1,9 +1,6 @@
 from random import randint
 
-
-def calc_game():
-    x = randint(0, 100)
-    y = randint(0, 100)
+def choose_operation(x, y):
     doing = randint(0, 2)
     if doing == 0:
         result = x + y
@@ -15,3 +12,8 @@ def calc_game():
         result = x * y
         expression = f'{x} * {y}'
     return (expression, str(result))
+
+def calc_game():
+    x = randint(0, 100)
+    y = randint(0, 100)
+    return (choode_operation(x, y))
