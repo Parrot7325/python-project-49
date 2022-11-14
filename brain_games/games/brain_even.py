@@ -1,7 +1,7 @@
 from random import randint
 
 
- def is_even(x):
+def is_even(x):
     return (x % 2 == 0)
 
 
