@@ -2,7 +2,7 @@ from random import randint
 
 
 def is_even(x):
-    return (x % 2 == 0)
+    return x % 2 == 0
 
 
 def even_game():
@@ -11,4 +11,4 @@ def even_game():
         right_answer = 'yes'
     else:
         right_answer = 'no'
-    return x, right_answer
+    return (x, right_answer)
