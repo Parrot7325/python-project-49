@@ -1,3 +1,4 @@
+from brain_games.game_logic import right_or_wrong
 from brain_games.games.brain_calc import calc_game
 
 

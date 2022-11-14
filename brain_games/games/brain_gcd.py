@@ -1,4 +1,3 @@
-from brain_games.game_logic import right_or_wrong
 from random import randint
 
 
