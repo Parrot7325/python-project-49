@@ -12,4 +12,3 @@ def even_game():
     else:
         right_answer = 'no'
     return (x, right_answer)
-
