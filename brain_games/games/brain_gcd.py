@@ -1,5 +1,6 @@
 from random import randint
 
+
 def find_gcd(x, y):
     minimum = min(x, y)
     gcd = 1
@@ -16,4 +17,4 @@ def gcd_game():
     y = randint(0, 20)
     quest = str(x) + ' ' + str(y)
     gcd = find_gcd(x, y)
-    return (quest, find_gcd(x, y))
+    return (quest, gcd)
