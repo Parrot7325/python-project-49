@@ -16,4 +16,4 @@ def choose_operation(x, y):
 def calc_game():
     x = randint(0, 100)
     y = randint(0, 100)
-    return (choode_operation(x, y))
+    return (choose_operation(x, y))
