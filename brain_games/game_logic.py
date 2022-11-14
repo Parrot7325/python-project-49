@@ -2,7 +2,7 @@ import sys
 import prompt
 
 
-def play_3_rounds(quest_global, gen_right):
+def start_game(quest_global, gen_right):
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
     print(f'Hello, {name}!\n{quest_global}')
     won_games = 0
