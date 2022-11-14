@@ -1,16 +1,20 @@
 from random import randint
 
 
-def prime_game():
-    x = randint(1, 100)
+def is_prime(x):
     not_prime = 0
+    if x == 1:
+        return False
     for d in range(2, x):
         if x % d == 0:
             not_prime += 1
-    if not_prime > 0:
-        right_answer = 'no'
-    else:
+    return not_prime == 0
+
+
+def prime_game():
+    x = randint(1, 100)
+    if is_prime(x):
         right_answer = 'yes'
-    if x == 1:
+    else:
         right_answer = 'no'
     return (x, right_answer)
