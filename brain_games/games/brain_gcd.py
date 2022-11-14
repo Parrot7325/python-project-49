@@ -2,7 +2,7 @@ from brain_games.game_logic import right_or_wrong
 from random import randint
 
 
-def gen_quest():
+def gcd_game():
     x = randint(0, 20)
     y = randint(0, 20)
     quest = str(x) + ' ' + str(y)
@@ -19,7 +19,7 @@ def gen_quest():
 
 def main():
     QUEST = 'Find the greatest common divisor of given numbers.'
-    right_or_wrong(QUEST, gen_quest)
+    right_or_wrong(QUEST, gcd_game)
 
 
 if __name__ == '__main__':

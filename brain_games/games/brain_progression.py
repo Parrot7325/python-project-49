@@ -2,7 +2,7 @@ from brain_games.game_logic import right_or_wrong
 from random import randint
 
 
-def gen_quest():
+def progression_game():
     progression = []
     length = randint(7, 13)
     x = randint(0, 10)
@@ -23,7 +23,7 @@ def gen_quest():
 
 
 def main():
-    right_or_wrong('What number is missing in the progression?', gen_quest)
+    right_or_wrong('What number is missing in the progression?', progression_game)
 
 
 if __name__ == '__main__':

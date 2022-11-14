@@ -2,7 +2,7 @@ from brain_games.game_logic import right_or_wrong
 from random import randint
 
 
-def gen_quest():
+def prime_game():
     x = randint(1, 100)
     not_prime = 0
     for d in range(2, x):
@@ -19,7 +19,7 @@ def gen_quest():
 
 def main():
     QUEST = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    right_or_wrong(QUEST, gen_quest)
+    right_or_wrong(QUEST, prime_game)
 
 
 if __name__ == '__main__':

@@ -2,7 +2,7 @@ from brain_games.game_logic import right_or_wrong
 from random import randint
 
 
-def gen_right():
+def calc_game():
     x = randint(0, 100)
     y = randint(0, 100)
     doing = randint(0, 2)

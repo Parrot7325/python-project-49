@@ -2,7 +2,7 @@ from brain_games.game_logic import right_or_wrong
 from random import randint
 
 
-def gen_quest():
+def even_game():
     x = randint(0, 1000)
 
     def is_even(x):
@@ -17,7 +17,7 @@ def gen_quest():
 
 def main():
     QUEST = 'Answer "yes" if the number is even, otherwise answer "no".'
-    right_or_wrong(QUEST, gen_quest)
+    right_or_wrong(QUEST, even_game)
 
 
 if __name__ == '__main__':
