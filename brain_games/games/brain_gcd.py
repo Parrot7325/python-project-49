@@ -14,4 +14,3 @@ def gcd_game():
     if x == 0 or y == 0:
         gcd = max(x, y)
     return (quest, str(gcd))
-
