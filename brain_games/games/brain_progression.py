@@ -19,4 +19,3 @@ def progression_game():
         quest += str(x)
         quest += ' '
     return (quest, str(right_answer))
-
