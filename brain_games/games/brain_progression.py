@@ -1,7 +1,7 @@
 from random import randint
 
 
-def progression_game():
+def gen_progression():
     progression = []
     length = randint(7, 13)
     x = randint(0, 10)
@@ -10,8 +10,12 @@ def progression_game():
         progression.append(x)
         x += step
         length -= 1
+    return progression
 
-    delete = randint(0, length)
+
+def progression_game():
+    progression = gen_progression()
+    delete = randint(0, len(progression)
     right_answer = progression[delete]
     progression[delete] = '..'
     quest = ''
