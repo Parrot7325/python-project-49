@@ -14,4 +14,3 @@ def prime_game():
     if x == 1:
         right_answer = 'no'
     return (x, right_answer)
-
