@@ -21,10 +21,3 @@ def progression_game():
         quest += ' '
     return (quest, str(right_answer))
 
-
-def main():
-    right_or_wrong('What number is missing in the progression?', progression_game)
-
-
-if __name__ == '__main__':
-    main()

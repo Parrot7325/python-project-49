@@ -16,11 +16,3 @@ def gcd_game():
         gcd = max(x, y)
     return (quest, str(gcd))
 
-
-def main():
-    QUEST = 'Find the greatest common divisor of given numbers.'
-    right_or_wrong(QUEST, gcd_game)
-
-
-if __name__ == '__main__':
-    main()

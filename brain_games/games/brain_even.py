@@ -14,11 +14,3 @@ def even_game():
         right_answer = 'no'
     return (x, right_answer)
 
-
-def main():
-    QUEST = 'Answer "yes" if the number is even, otherwise answer "no".'
-    right_or_wrong(QUEST, even_game)
-
-
-if __name__ == '__main__':
-    main()

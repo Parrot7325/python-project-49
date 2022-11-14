@@ -16,11 +16,3 @@ def prime_game():
         right_answer = 'no'
     return (x, right_answer)
 
-
-def main():
-    QUEST = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    right_or_wrong(QUEST, prime_game)
-
-
-if __name__ == '__main__':
-    main()
