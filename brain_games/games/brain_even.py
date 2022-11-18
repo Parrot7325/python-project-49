@@ -11,4 +11,4 @@ def even_game():
         right_answer = 'yes'
     else:
         right_answer = 'no'
-    return (x, right_answer)
+    return x, right_answer
