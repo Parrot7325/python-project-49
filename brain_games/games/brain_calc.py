@@ -2,7 +2,7 @@ from random import randint, choice
 
 
 def choose_operation(x, y):
-    doing = choice('+', '-', '*')
+    doing = choice('+' '-' '*')
     if doing == '+':
         result = x + y
         expression = f'{x} + {y}'
