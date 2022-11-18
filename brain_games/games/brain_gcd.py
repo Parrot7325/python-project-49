@@ -17,4 +17,4 @@ def gcd_game():
     y = randint(0, 20)
     quest = str(x) + ' ' + str(y)
     gcd = find_gcd(x, y)
-    return (quest, gcd)
+    return quest, gcd
