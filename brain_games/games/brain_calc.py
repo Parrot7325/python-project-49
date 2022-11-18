@@ -1,12 +1,12 @@
-from random import randint
+from random import randint, choice
 
 
 def choose_operation(x, y):
-    doing = randint(0, 2)
-    if doing == 0:
+    doing = choice('+', '-', '*')
+    if doing == '+':
         result = x + y
         expression = f'{x} + {y}'
-    elif doing == 1:
+    elif doing == '-':
         result = x - y
         expression = f'{x} - {y}'
     else:
