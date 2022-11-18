@@ -1,21 +1,21 @@
 from random import randint, choice
 
 
-def choose_operation(x, y):
+def choose_operation(first_number, second_number):
     doing = choice('+' '-' '*')
     if doing == '+':
-        result = x + y
-        expression = f'{x} + {y}'
+        result = first_number + second_number
+        expression = f'{first_number} + {second_number}'
     elif doing == '-':
-        result = x - y
-        expression = f'{x} - {y}'
+        result = first_number - second_number
+        expression = f'{first_number} - {second_number}'
     else:
-        result = x * y
-        expression = f'{x} * {y}'
+        result = first_number * second_number
+        expression = f'{first_number} * {second_number}'
     return expression, str(result)
 
 
 def calc_game():
-    x = randint(0, 100)
-    y = randint(0, 100)
-    return choose_operation(x, y)
+    first_random_number = randint(0, 100)
+    second_random_number = randint(0, 100)
+    return choose_operation(first_random_number, second_random_number)

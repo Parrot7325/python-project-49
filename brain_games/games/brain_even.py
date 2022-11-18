@@ -1,14 +1,14 @@
 from random import randint
 
 
-def is_even(x):
-    return x % 2 == 0
+def is_even(number):
+    return number % 2 == 0
 
 
 def even_game():
-    x = randint(0, 1000)
-    if is_even(x):
+    random_number = randint(0, 1000)
+    if is_even(random_number):
         right_answer = 'yes'
     else:
         right_answer = 'no'
-    return x, right_answer
+    return random_number, right_answer
