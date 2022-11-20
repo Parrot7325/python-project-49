@@ -1,17 +1,24 @@
 from random import randint, choice
 
 
-def choose_operation(first_number, second_number):
-    doing = choice('+' '-' '*')
+def make_result(first_number, second_number, doing):
     if doing == '+':
         result = first_number + second_number
-        expression = f'{first_number} + {second_number}'
     elif doing == '-':
         result = first_number - second_number
-        expression = f'{first_number} - {second_number}'
     else:
         result = first_number * second_number
-        expression = f'{first_number} * {second_number}'
+    return result
+
+
+def make_question(first_number, second_number, doing):
+    return f'{first_number} {doing} {second_number}'
+
+
+def choose_operation(first_number, second_number):
+    doing = choice('+' '-' '*')
+    result = make_result(first_number, second_number, doing)
+    expression = make_question(first_number, seconf_number, doing)
     return expression, str(result)
 
 
