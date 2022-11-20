@@ -40,10 +40,14 @@ brain-prime
 Демонстрации:
 
 
-Запуск brain-even: https://asciinema.org/a/ZUj9asjkDqex5EBUingzSuZHh
+Запуск brain-even:
+[![asciicast](https://asciinema.org/a/ZUj9asjkDqex5EBUingzSuZHh.svg)](https://asciinema.org/a/ZUj9asjkDqex5EBUingzSuZHh)
 
-Запуск brain-gcd https://asciinema.org/a/J7VlV3VgKVZKWDG8HsxpRpAct
+Запуск brain-gcd:
+[![asciicast](https://asciinema.org/a/J7VlV3VgKVZKWDG8HsxpRpAct.svg)](https://asciinema.org/a/J7VlV3VgKVZKWDG8HsxpRpAct)
 
-Запуск brain-progression: https://asciinema.org/a/EQUsyPa3OxbCnhtaEV34X1wtE
+Запуск brain-progression: 
+[![asciicast](https://asciinema.org/a/EQUsyPa3OxbCnhtaEV34X1wtE.svg)](https://asciinema.org/a/EQUsyPa3OxbCnhtaEV34X1wtE)
 
-Запуск brain-prime: https://asciinema.org/a/YQYZ7P7Er7mQDZbwm9yLZz6DW
+Запуск brain-prime: 
+[![asciicast](https://asciinema.org/a/YQYZ7P7Er7mQDZbwm9yLZz6DW.svg)](https://asciinema.org/a/YQYZ7P7Er7mQDZbwm9yLZz6DW)
