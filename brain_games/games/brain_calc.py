@@ -15,8 +15,9 @@ def make_question(first_number, second_number, doing):
     return f'{first_number} {doing} {second_number}'
 
 
+doings = ('+', '-', '*')
 def choose_operation(first_number, second_number):
-    doing = choice('+' '-' '*')
+    doing = choice(doings)
     result = make_result(first_number, second_number, doing)
     expression = make_question(first_number, second_number, doing)
     return expression, str(result)
