@@ -15,9 +15,9 @@ def gen_progression():
 
 def progression_game():
     progression = gen_progression()
-    delete = randint(0, len(progression) - 1)
-    right_answer = progression[delete]
-    progression[delete] = '..'
+    random_index = randint(0, len(progression) - 1)
+    right_answer = progression[random_index]
+    progression[random_index] = '..'
     quest = ''
     for number in progression:
         quest += str(number)
