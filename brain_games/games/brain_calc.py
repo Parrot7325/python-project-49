@@ -18,7 +18,7 @@ def make_question(first_number, second_number, doing):
 def choose_operation(first_number, second_number):
     doing = choice('+' '-' '*')
     result = make_result(first_number, second_number, doing)
-    expression = make_question(first_number, seconf_number, doing)
+    expression = make_question(first_number, second_number, doing)
     return expression, str(result)
 
 
