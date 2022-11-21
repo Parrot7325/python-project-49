@@ -2,9 +2,9 @@ import sys
 import prompt
 
 
-def start_game(quest_global, gen_right):
+def start_game(gen_right):
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
-    print(f'Hello, {name}!\n{quest_global}')
+    print(f'Hello, {name}!')
     won_games = 0
     while won_games < 3:
         rights = gen_right()

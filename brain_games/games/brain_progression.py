@@ -14,6 +14,7 @@ def gen_progression():
 
 
 def progression_game():
+    print('What number is missing in the progression?')
     progression = gen_progression()
     random_index = randint(0, len(progression) - 1)
     right_answer = progression[random_index]
