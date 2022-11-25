@@ -29,4 +29,7 @@ def calc_game():
     print('What is the result of the expression?')
     first_random_number = randint(0, 100)
     second_random_number = randint(0, 100)
-    return choose_operation(first_random_number, second_random_number)
+    doing = choice(DOINGS)
+    result = make_result(first_number, second_number, doing)
+    expression = make_question(first_number, second_number, doing)
+    return expression, str(result)
