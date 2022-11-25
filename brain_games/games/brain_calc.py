@@ -30,6 +30,6 @@ def calc_game():
     first_random_number = randint(0, 100)
     second_random_number = randint(0, 100)
     doing = choice(DOINGS)
-    result = make_result(first_number, second_number, doing)
-    expression = make_question(first_number, second_number, doing)
+    result = make_result(first_random_number, second_random_number, doing)
+    expression = make_question(first_random_number, second_random_number, doing)
     return expression, str(result)
