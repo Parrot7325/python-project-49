@@ -1,7 +1,7 @@
 from random import randint, choice
 
 
-doings = ('+', '-', '*')
+DOINGS = ('+', '-', '*')
 
 
 def make_result(first_number, second_number, doing):
@@ -19,7 +19,7 @@ def make_question(first_number, second_number, doing):
 
 
 def choose_operation(first_number, second_number):
-    doing = choice(doings)
+    doing = choice(DOINGS)
     result = make_result(first_number, second_number, doing)
     expression = make_question(first_number, second_number, doing)
     return expression, str(result)
