@@ -32,8 +32,3 @@ installation:
 	poetry install
 	poetry build
 	python3 -m pip install --user  --force-reinstall dist/*.whl
-
-push:
-	echo Parrot7325
-	cat ../githubtoken.txt
-	git push
