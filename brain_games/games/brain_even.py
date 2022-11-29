@@ -6,8 +6,9 @@ def is_even(number):
     return number % 2 == 0
 
 
-QUESTION = ('Answer "yes" if the number is even, '
-           'otherwise answer "no".')
+QUESTION = (
+    'Answer "yes" if the number is even, '
+    'otherwise answer "no".')
 
 
 def even_game():
