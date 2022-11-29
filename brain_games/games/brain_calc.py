@@ -15,8 +15,11 @@ def make_result(first_number, second_number, doing):
     return result
 
 
+QUESTION = 'What is the result of the expression?'
+
+
 def calc_game():
-    print('What is the result of the expression?')
+    print(QUESTION)
     first_random_number = randint(0, 100)
     second_random_number = randint(0, 100)
     operator = choice(OPERATORS)
