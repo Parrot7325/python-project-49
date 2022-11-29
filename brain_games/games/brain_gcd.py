@@ -13,8 +13,11 @@ def find_gcd(first_number, second_number):
     return str(gcd)
 
 
+QUESTION = 'Find the greatest common divisor of given numbers.'
+
+
 def gcd_game():
-    print('Find the greatest common divisor of given numbers.')
+    print(QUESTION)
     first_random_number = randint(0, 20)
     second_random_number = randint(0, 20)
     quest = str(first_random_number) + ' ' + str(second_random_number)
