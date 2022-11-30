@@ -2,12 +2,12 @@ import sys
 import prompt
 
 
-def game(gen_right):
+def game(start_game):
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
     print(f'Hello, {name}!')
     won_games = 0
     while won_games < 3:
-        question, correct_answer = gen_right()
+        question, correct_answer = start_game()
         answer = input(f'Question: {question}\nYour answer: ')
         if answer == correct_answer:
             won_games += 1
