@@ -3,12 +3,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Parrot7325/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Parrot7325/python-project-49/actions)
 
-Для быстрой установки выполните
-```
-python3 -m pip install --user dist/*.whl
-```
-Данная команда установит в систему собранный пакет в формате whl из папки dist
-
 
 Для установки с нуля (потребуется poetry) выполните
 ```
