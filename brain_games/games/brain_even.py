@@ -12,10 +12,9 @@ QUESTION = (
 
 
 def even_game():
-    print(QUESTION)
     random_number = randint(0, 1000)
     if is_even(random_number):
         right_answer = 'yes'
     else:
         right_answer = 'no'
-    return random_number, right_answer
+    return QUESTION, random_number, right_answer

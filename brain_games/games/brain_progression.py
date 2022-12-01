@@ -18,7 +18,6 @@ QUESTION = 'What number is missing in the progression?'
 
 
 def progression_game():
-    print(QUESTION)
     progression = gen_progression()
     random_index = randint(0, len(progression) - 1)
     right_answer = progression[random_index]
@@ -27,4 +26,4 @@ def progression_game():
     for number in progression:
         quest += str(number)
         quest += ' '
-    return quest, str(right_answer)
+    return QUESTION, quest, str(right_answer)

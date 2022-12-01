@@ -16,10 +16,9 @@ QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def prime_game():
-    print(QUESTION)
     random_number = randint(1, 100)
     if is_prime(random_number):
         right_answer = 'yes'
     else:
         right_answer = 'no'
-    return random_number, right_answer
+    return QUESTION, random_number, right_answer

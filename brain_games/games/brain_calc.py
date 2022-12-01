@@ -19,10 +19,9 @@ QUESTION = 'What is the result of the expression?'
 
 
 def calc_game():
-    print(QUESTION)
     first_random_number = randint(0, 100)
     second_random_number = randint(0, 100)
     operator = choice(OPERATORS)
     result = make_result(first_random_number, second_random_number, operator)
     expression = f'{first_random_number} {operator} {second_random_number}'
-    return expression, str(result)
+    return QUESTION, expression, str(result)
