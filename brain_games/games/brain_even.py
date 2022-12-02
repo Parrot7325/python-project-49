@@ -10,10 +10,10 @@ QUESTION = (
     'otherwise answer "no".')
 
 
-def even_game():
+def play():
     random_number = randint(0, 1000)
     if is_even(random_number):
         right_answer = 'yes'
     else:
         right_answer = 'no'
-    return QUESTION, random_number, right_answer
+    return random_number, right_answer

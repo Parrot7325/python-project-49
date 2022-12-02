@@ -14,10 +14,10 @@ def is_prime(number):
 QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def prime_game():
+def play():
     random_number = randint(1, 100)
     if is_prime(random_number):
         right_answer = 'yes'
     else:
         right_answer = 'no'
-    return QUESTION, random_number, right_answer
+    return random_number, right_answer
