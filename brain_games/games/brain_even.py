@@ -6,8 +6,8 @@ def is_even(number):
 
 
 <<<<<<< HEAD
-QUESTION = (f'Answer "yes" if the number is even, '
-            f'otherwise answer "no".')
+QUESTION = ('Answer "yes" if the number is even, '
+            'otherwise answer "no".')
 <<<<<<< HEAD
 =======
 QUESTION = '''
