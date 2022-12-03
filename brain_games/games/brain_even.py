@@ -8,10 +8,13 @@ def is_even(number):
 <<<<<<< HEAD
 QUESTION = (f'Answer "yes" if the number is even, '
             f'otherwise answer "no".')
+<<<<<<< HEAD
 =======
 QUESTION = '''
 Answer "yes" if the number is even, 'otherwise answer "no".'''
 >>>>>>> parent of 34150f5 (Кортеж заменен на f-строки)
+=======
+>>>>>>> 63ab1c2be87df2d5bdc7b20a1274fb11a5ee141e
 
 
 def even_game():
