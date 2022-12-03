@@ -15,9 +15,9 @@ def find_gcd(first_number, second_number):
 QUESTION = 'Find the greatest common divisor of given numbers.'
 
 
-def play():
+def gcd_game():
     first_random_number = randint(0, 20)
     second_random_number = randint(0, 20)
     quest = str(first_random_number) + ' ' + str(second_random_number)
     gcd = find_gcd(first_random_number, second_random_number)
-    return quest, gcd
+    return QUESTION, quest, gcd
