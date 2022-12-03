@@ -6,7 +6,7 @@ def is_even(number):
 
 
 QUESTION = (f'Answer "yes" if the number is even, '
-  f'otherwise answer "no".')
+            f'otherwise answer "no".')
 
 
 def play():
