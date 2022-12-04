@@ -8,6 +8,7 @@ def is_even(number):
 QUESTION = ('Answer "yes" if the number is even, '
             'otherwise answer "no".')
 
+
 def even_game():
     random_number = randint(0, 1000)
     if is_even(random_number):
